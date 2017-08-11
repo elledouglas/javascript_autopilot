@@ -34,9 +34,9 @@ car.gas = 100;
 console.log("Filled up to" + getGasDisplay(car.gas) + 'on gas from' + getGasDisplay(oldGas))
 }
 
-function getGasDisplay(gasAmount){
-  console.log(gasAmount);
-}
+// function getGasDisplay(gasAmount){
+//   console.log(gasAmount);
+// }
 
 // function drive(car, cityDistance){
 //  if (car.gas <= cityDistance);
@@ -44,19 +44,36 @@ function getGasDisplay(gasAmount){
 //  }
 //
 //  car.gas = getDirections(car)
-//  car.gas -=
+//  car.gas -= cityDistance
+// console.log("Drove to " + car.city "remaining gas:" + getGasDisplay(car.gas))
+
+// function dropOffPassengers(car){
+//   previous_passengers = car.passengers;
+//   car.passenger = 0;
+//   console.log("Dropped of " + previousPassengers "passengers")
+// }
+//
+// function act(car){
+// var distanceBetweenCities = 50
+// if (car.gas <= 20){
+//   console.log(fillUpGas(car));
+// }
+//
+//   else if (car.passengers <= 3){
+//   console.log(pickUpPassenger(car));
+// }
+//   else if (car.gas < distanceBetweenCities){
+//     console.log(fullUpGas(car));
+//   }
+//   droveTo = drive(car, distanceBetweenCities)
+//   passengersDropped = dropOffPassengers(car)
+//     console.log(droveTo + passengersDropped)
+//
+//
+// }
 
 
-function act(car){
-var distanceBetweenCities = 50
-
-// if (car.gas <= 20)
-
-}
-
-function commandFleet(cars){
-  cars.each_with_index
-}
+// }
 
 function addOneCarPerDay(cars, numDays){
 
