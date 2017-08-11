@@ -90,4 +90,4 @@ def add_one_car_per_day(cars, num_days)
 end
 
 cars = []
-add_one_car_per_day cars, 10
+add_one_car_per_day(cars, 10)
